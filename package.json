@@ -2,7 +2,7 @@
   "name": "rawcan_c1x",
   "version": "1.1.4",
   "description": "Bindings for SocketCAN",
-  "author": "Joe Kramer <joe.kramer.cu@gmail.com>",
+  "author": "ploto_zhu@aliyun.com",
   "main": "dist/rawcan.js",
   "typings": "dist/rawcan.d.ts",
   "typescript": {
@@ -29,9 +29,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jjkr/rawcan/issues"
+    "url": "https://github.com/plotozhu/rawcan.git"
   },
-  "homepage": "https://github.com/jjkr/rawcan#readme",
+  "homepage": "https://github.com/plotozhu/rawcan.git#readme",
   "os": [
     "linux"
   ],
