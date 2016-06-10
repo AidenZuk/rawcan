@@ -45,6 +45,8 @@ private:
     can_frame m_sendBuffer;
     int m_pollEvents = 0;
     bool m_closed = false;
+
+    //void static onClose(uv_handle_t* handle);
 };
 
 NODE_MODULE(can_wrap, CANWrap::Initialize);
