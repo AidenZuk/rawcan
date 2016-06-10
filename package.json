@@ -1,11 +1,8 @@
 {
-  "name": "rawcan",
+  "name": "rawcan_c1x",
   "version": "1.1.4",
   "description": "Bindings for SocketCAN",
-  "author": {
-    "name": "Joe Kramer",
-    "email": "joe.kramer.cu@gmail.com"
-  },
+  "author": "Joe Kramer <joe.kramer.cu@gmail.com>",
   "main": "dist/rawcan.js",
   "typings": "dist/rawcan.d.ts",
   "typescript": {
@@ -20,11 +17,12 @@
     "build": "npm run build:gyp && npm run build:js",
     "preversion": "npm test",
     "watch": "npm run build:jssrc -- --watch & npm run build:jstest -- --watch",
-    "test": "NODE_ENV=test mocha build/rawcan_test.js"
+    "test": "NODE_ENV=test mocha build/rawcan_test.js",
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jjkr/rawcan.git"
+    "url": "git+https://github.com/plotozhu/rawcan.git"
   },
   "keywords": [
     "CAN"
@@ -46,5 +44,9 @@
     "mocha": "^2.4.5",
     "typescript": "^1.8.9",
     "typings": "^0.7.12"
+  },
+  "gypfile": true,
+  "directories": {
+    "test": "test"
   }
 }

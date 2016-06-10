@@ -1,6 +1,6 @@
 # rawcan
 [![Build Status](https://travis-ci.org/jjkr/rawcan.svg?branch=master)](https://travis-ci.org/jjkr/rawcan)
-
+THIS IS A SIMPLE FORK FROM jjkr, I Removed c11 option to be compiled under gcc 4.6.3,which make it possible run under cortex A8 and linux 3.2
 Lightweight asynchronous Node.js bindings for SocketCAN. SocketCAN is a socket based implementation of the CAN bus protocol for the Linux kernel, developed primarily by VW.
 
 ```javascript
